@@ -19,7 +19,12 @@ int main () {
             j--;
         }
         array[j+1] = currentNumber;
-            
+        
+          for(int i = 0; i< length; i++)
+    {
+        cout<< array[i] << ' ' ;
+    }   
+    cout<< endl;
     }
 
     for(int i = 0; i< length; i++)

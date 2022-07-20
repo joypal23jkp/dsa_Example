@@ -11,7 +11,7 @@ int main () {
     {
         for(int j = 0; j< 6; j++)
         {
-            if(array[j] > array[i]) {
+            if(array[i] < array[j]) {
                 int temp = array[i];
                 array[i] = array[j];
                 array[j] = temp;
